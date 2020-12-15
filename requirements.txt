@@ -1,0 +1,9 @@
+article==0.1.1
+Django==2.2
+django-cors-headers==3.5.0
+django-filter==2.4.0
+django-filters==0.2.1
+djangorestframework==3.12.2
+mysqlclient==2.0.1
+pytz==2020.4
+sqlparse==0.4.1
