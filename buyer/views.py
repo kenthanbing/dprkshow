@@ -19,7 +19,7 @@ class BuyerSubmitView(CreateAPIView):
             return Response({
                 'code': 200,
                 'msg': '注册成功',
-                'data': {'uid': buyer.bid}
+                'data': {'bid': buyer.bid}
             })
         return Response({
             'code': 105,
