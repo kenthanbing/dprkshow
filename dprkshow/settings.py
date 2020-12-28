@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from secrets import SECRET_KEY
+from secrets import SECRET_KEY, mysql_key
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'dprkshow',
         'HOST': '127.0.0.1',
         'USER': 'kent',
-        'PASSWORD': '1234',
+        'PASSWORD': mysql_key,
         'PORT': 3306,
     }
 }
