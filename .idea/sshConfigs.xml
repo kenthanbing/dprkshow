@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="8.131.233.42" id="1fdc5c3f-f981-41cd-bb2d-cf5b0bd3a06b" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig host="8.131.233.42" id="1fdc5c3f-f981-41cd-bb2d-cf5b0bd3a06b" keyPath="C:\Users\Administrator\.ssh\aliyun-homepc.pem" port="22" nameFormat="DESCRIPTIVE" username="root" />
     </configs>
   </component>
 </project>

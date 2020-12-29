@@ -19,5 +19,6 @@ urlpatterns = [
     path('api/articles/', include('articles.urls')),
     path('api/article/', include('article.urls')),
     path('api/exhibitor/', include('exhibitor.urls')),
-    path('api/buyer/', include('buyer.urls'))
+    path('api/buyer/', include('buyer.urls')),
+    path('api/contactus/', include('contactus.urls'))
 ]
